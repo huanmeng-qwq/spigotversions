@@ -26,7 +26,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: 'Download files from SpigotMC'
-        run: wget -L -N -r -np -nH -nd --accept=json -R index.html https://hub.spigotmc.org/versions
+        run: wget -L -N -r -np -nH -nd -R index.html https://hub.spigotmc.org/versions/
 
       - name: Configure git and Commit
         run: |
