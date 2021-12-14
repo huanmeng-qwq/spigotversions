@@ -23,16 +23,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-
-      - name: List dir
-        run: ls -a .
-
+        uses: actions/checkout@master
 
       - name: 'Download files from SpigotMC'
-        run: wget -A.json -L -N -r -np -nH -R index.html -P ./spigotversions https://hub.spigotmc.org/versions
+        run: wget -L -N -r -np -nH -nd --accept=json -R index.html https://hub.spigotmc.org/versions
 
       - name: Configure git and Commit
         run: |
