@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+# The main workflow!
 
 name: Main workflow
 
@@ -22,11 +22,13 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout
-        uses: actions/checkout@master
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
 
       - name: 'Download files from SpigotMC'
-        run: wget -r -nd -np -P . -N https://hub.spigotmc.org/versions
+        run: wget -r -nd -np -P ./spigotversions -N https://hub.spigotmc.org/versions
 
       - name: Configure git and Commit
         run: |
@@ -38,4 +40,4 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ACCESS_TOKEN_FOR_SV }}
