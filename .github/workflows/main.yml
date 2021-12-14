@@ -27,6 +27,10 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: List dir
+        run: ls -a .
+
+
       - name: 'Download files from SpigotMC'
         run: wget -A.json -L -N -r -np -nH -R index.html -P ./spigotversions https://hub.spigotmc.org/versions
 
