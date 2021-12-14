@@ -28,7 +28,7 @@ jobs:
           persist-credentials: false
 
       - name: 'Download files from SpigotMC'
-        run: wget -r -nd -np -P ./spigotversions -N https://hub.spigotmc.org/versions
+        run: wget -r -nd -np -P ./spigotversions -A .json -N https://hub.spigotmc.org/versions
 
       - name: Configure git and Commit
         run: |
