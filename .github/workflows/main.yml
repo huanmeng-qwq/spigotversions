@@ -33,7 +33,7 @@ jobs:
           git config --global user.email snwcreations@qq.com
           git config --global user.name SNWCreations
           git add .
-          git commit -m "Updated by Github Actions." -a
+          git commit -m "Updated by Github Actions." -a --allow-empty
       
       - name: Push changes
         uses: ad-m/github-push-action@master
