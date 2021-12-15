@@ -2,6 +2,8 @@ name: 'Close stale issues'
 on:
   schedule:
     - cron: '30 1 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   stale:
@@ -9,5 +11,6 @@ jobs:
     steps:
       - uses: actions/stale@v3
         with:
-          stale-issue-message: 'Auto closed. If this workflow does not work properly, please send an email to me!'
-          days-before-close: 1
+          stale-issue-message: 'Auto closed. If the main workflow does not work properly, please send an email to me!'
+          days-before-stale: 1
+          days-before-close: 0
