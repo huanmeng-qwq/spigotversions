@@ -23,6 +23,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
+      - name: Setup Python
+        uses: actions/setup-python@master
+
       - name: 'Download files from SpigotMC'
         run: |
           cd data
@@ -30,13 +33,23 @@ jobs:
           rm -rf index.html.tmp
           cd ..
 
-      - name: Configure git and Commit
+      - name: Configure git
         run: |
           git config --global user.email snwcreations@qq.com
           git config --global user.name SNWCreations
-          git add .
-          git commit -m "Updated by Github Actions." -a --allow-empty
-      
+          
+      - name: Commit
+        run: |
+          echo "temp.py" > .gitignore
+          echo ".gitignore" >> .gitignore
+          echo "import os" > temp.py
+          echo "import sys" >> temp.py
+          echo "os.system(\"git commit -m 'Updated by Github Actions.' -a\")" >> temp.py
+          echo "sys.exit(0)" >> temp.py
+          python temp.py
+          rm -rf temp.py
+          rm -rf .gitignore
+          
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
