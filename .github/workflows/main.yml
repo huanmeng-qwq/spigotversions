@@ -29,7 +29,7 @@ jobs:
       - name: 'Download files from SpigotMC'
         run: |
           cd data
-          wget -L -N -r -np -nH -nd --no-if-modified-since -R index.html https://hub.spigotmc.org/versions/
+          wget -L -r -np -nH -nd --no-if-modified-since -R index.html https://hub.spigotmc.org/versions/
           rm -rf index.html.tmp
           cd ..
 
