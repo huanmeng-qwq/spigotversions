@@ -12,5 +12,5 @@ jobs:
       - uses: actions/stale@master
         with:
           stale-issue-message: 'Auto closed. If the main workflow does not work properly, please send an email to me!'
-          days-before-stale: 1
+          days-before-stale: 0
           days-before-close: 0
