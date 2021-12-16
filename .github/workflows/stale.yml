@@ -9,7 +9,7 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v3
+      - uses: actions/stale@master
         with:
           stale-issue-message: 'Auto closed. If the main workflow does not work properly, please send an email to me!'
           days-before-stale: 1
