@@ -23,9 +23,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - name: Setup Python
-        uses: actions/setup-python@master
-
       - name: 'Download files from SpigotMC'
         run: |
           rm -rf data
@@ -42,14 +39,12 @@ jobs:
           
       - name: Commit
         run: |
-          echo "temp.py" > .gitignore
+          echo "temp.sh" > .gitignore
           echo ".gitignore" >> .gitignore
-          echo "import os" > temp.py
-          echo "import sys" >> temp.py
-          echo "os.system(\"git commit -m 'Updated by Github Actions.' -a\")" >> temp.py
-          echo "sys.exit(0)" >> temp.py
-          python temp.py
-          rm -rf temp.py
+          echo "git commit -m 'Updated by Github Actions.' -a" > temp.sh
+          echo "exit 0" >> temp.sh
+          sh temp.sh
+          rm -rf temp.sh
           rm -rf .gitignore
           
       - name: Push changes
