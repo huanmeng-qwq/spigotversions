@@ -24,29 +24,15 @@ jobs:
         uses: actions/checkout@master
 
       - name: 'Download files from SpigotMC'
-        run: |
-          rm -rf data
-          mkdir data
-          cd data
-          wget -L -r -np -nH -nd --no-if-modified-since -R index.html https://hub.spigotmc.org/versions/
-          rm -rf index.html.tmp
-          cd ..
+        run: sh download.sh
 
-      - name: Configure git
+      - name: Configure git and Commit
         run: |
           git config --global user.email snwcreations@qq.com
           git config --global user.name SNWCreations
-          
-      - name: Commit
-        run: |
-          echo "temp.sh" > .gitignore
-          echo ".gitignore" >> .gitignore
-          echo "git commit -m 'Updated by Github Actions.' -a" > temp.sh
-          echo "exit 0" >> temp.sh
-          sh temp.sh
-          rm -rf temp.sh
-          rm -rf .gitignore
-          
+          git add .
+          sh commit.sh
+      
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
