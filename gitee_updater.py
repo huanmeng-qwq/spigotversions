@@ -46,7 +46,7 @@ while True:
     if waitTimeIndex > 5:
         raise Exception("Failed to login.")
     waitTimeIndex += 1
-    sleep(3)
+    sleep(20)
 
 for n in ['bukkit', 'craftbukkit', 'spigot', 'builddata']:
     browser.Open(f"https://gitee.com/SNWCreations/{n}")
