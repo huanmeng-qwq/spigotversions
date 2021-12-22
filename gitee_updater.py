@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import pyWebBrowser
 from pyWebBrowser import sleep  # 因为已经在包里引用过 time.sleep 了, 所以可以不用再引用一次
 
