@@ -7,6 +7,8 @@ from pyWebBrowser import sleep  # 因为已经在包里引用过 time.sleep 了,
 awgf = os.environ["A"]  # 输入 Gitee 社区用户名
 awfrrsea = os.environ["B"] # 输入登录密码
 
+print("Account", awgf)
+
 browser = pyWebBrowser.Browser()
 mkc = pyWebBrowser.MKC()
 
@@ -46,6 +48,7 @@ sleep(1)
 wait = 0
 while True:
     print("Waiting redirect.")
+    print("Debug:", browser.Url())
     if browser.Url() == 'https://gitee.com/':
         break
     else:
