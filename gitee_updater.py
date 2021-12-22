@@ -18,12 +18,12 @@ browser.Create(topMost=True)
 
 print("Open login site")
 # Step 1 打开 Gitee 网站登录页面
-loginUrl = 'https://gitee.com/login'
+loginUrl = 'https://gitee.com/auth/github'
 browser.Open(loginUrl)
 
 # Step 2 执行登录
-awgfXPath = '//div[@class="session-login__body"]//input[@id="user_login"]'
-awfrrseaXPath = '//div[@class="session-login__body"]//input[@id="user_password"]'
+awgfXPath = '//*[@id="login_field"]'
+awfrrseaXPath = '//*[@id="password"]'
 
 print("Waiting Password Input Box")
 # 等待指定元素完成加载完成, 默认等待 5 秒
@@ -52,7 +52,7 @@ while True:
     if browser.Url() == 'https://gitee.com/':
         break
     else:
-        if wait > 5:
+        if wait > 10:
             raise Exception("Failed to login.")
     wait += 1
     sleep(3)
