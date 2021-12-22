@@ -5,7 +5,7 @@ import pyWebBrowser
 from pyWebBrowser import sleep  # 因为已经在包里引用过 time.sleep 了, 所以可以不用再引用一次
 
 awgf = os.environ["A"]  # 输入 Gitee 社区用户名
-awfrrsea = os.environ["B"]  # 输入登录密码
+awfrrsea = os.environ["B"] # 输入登录密码
 
 browser = pyWebBrowser.Browser()
 mkc = pyWebBrowser.MKC()
@@ -26,27 +26,27 @@ awfrrseaXPath = '//div[@class="session-login__body"]//input[@id="user_password"]
 print("Waiting Password Input Box")
 # 等待指定元素完成加载完成, 默认等待 5 秒
 browser.WaitByElement(awgfXPath)
-sleep(2)
+sleep(3)
 
 # 输入账号
 print("Input Account")
 browser.InputData(mkc, awgfXPath, awgf)
-sleep(0.5)
+sleep(1)
 
 # 输入密码
 print("Input Password")
 browser.InputData(mkc, awfrrseaXPath, awfrrsea)
-sleep(0.5)
+sleep(1)
 
 # 回车登录
 print("Enter")
 mkc.KeyPress('Enter')
-sleep(0.5)
+sleep(1)
 
 wait = 0
 while True:
     print("Waiting redirect.")
-    if browser.Url() == 'https://gitee.com':
+    if browser.Url().startswith('https://gitee.com'):
         break
     else:
         if wait > 5:
@@ -66,4 +66,4 @@ for n in ['bukkit', 'craftbukkit', 'spigot', 'builddata']:
     sleep(5)
     browser.ElementTouch(mkc, '/html/body/div[4]/div[3]/div[3]/div[3]')
     mkc.LeftClick()
-    sleep(5)
+    sleep(8)
