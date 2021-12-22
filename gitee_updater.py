@@ -46,7 +46,7 @@ sleep(1)
 wait = 0
 while True:
     print("Waiting redirect.")
-    if browser.Url().startswith('https://gitee.com'):
+    if browser.Url() == 'https://gitee.com/':
         break
     else:
         if wait > 5:
