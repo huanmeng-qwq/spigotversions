@@ -12,41 +12,38 @@ mkc = pyWebBrowser.MKC()
 
 # 创建浏览器
 # Create 参数不填写时, 将默认创建 1360 x 768 分辨率且不置顶的窗口
-browser.Create()
+browser.Create(topMost=True)
 
+print("Open login site")
 # Step 1 打开 Gitee 网站登录页面
 loginUrl = 'https://gitee.com/login'
 browser.Open(loginUrl)
 
 # Step 2 执行登录
 awgfXPath = '//div[@class="session-login__body"]//input[@id="user_login"]'
-awfrrseaXPath = '//div[@class="session-login__body"]//input[@id="user_awfrrsea"]'
+awfrrseaXPath = '//div[@class="session-login__body"]//input[@id="user_password"]'
 
+print("Wait")
 # 等待指定元素完成加载完成, 默认等待 5 秒
 browser.WaitByElement(awgfXPath)
 sleep(2)
 
 # 输入账号
+print("Input Account")
 browser.InputData(mkc, awgfXPath, awgf)
 sleep(0.5)
 
 # 输入密码
+print("Input Password")
 browser.InputData(mkc, awfrrseaXPath, awfrrsea)
 sleep(0.5)
 
 # 回车登录
+print("Enter")
 mkc.KeyPress('Enter')
 sleep(0.5)
 
-# Step 3 等待页面跳转
-waitTimeIndex = 0
-while True:
-    if browser.Url() == 'https://gitee.com/':
-        break
-    if waitTimeIndex > 5:
-        raise Exception("Failed to login.")
-    waitTimeIndex += 1
-    sleep(20)
+sleep(5)
 
 for n in ['bukkit', 'craftbukkit', 'spigot', 'builddata']:
     browser.Open(f"https://gitee.com/SNWCreations/{n}")
