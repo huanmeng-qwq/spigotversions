@@ -34,5 +34,8 @@ jobs:
           pip install -r requirements.txt
           
       - name: Working
-        run: A=${{ secrets.A }} B=${{ secrets.B }} python gitee_updater.py
+        env:
+          A: ${{ secrets.A }}
+          B: ${{ secrets.B }}
+        run: python gitee_updater.py
 
