@@ -23,7 +23,7 @@ browser.Open(loginUrl)
 awgfXPath = '//div[@class="session-login__body"]//input[@id="user_login"]'
 awfrrseaXPath = '//div[@class="session-login__body"]//input[@id="user_password"]'
 
-print("Wait")
+print("Waiting Password Input Box")
 # 等待指定元素完成加载完成, 默认等待 5 秒
 browser.WaitByElement(awgfXPath)
 sleep(2)
@@ -43,9 +43,20 @@ print("Enter")
 mkc.KeyPress('Enter')
 sleep(0.5)
 
-sleep(5)
+wait = 0
+while True:
+    print("Waiting redirect.")
+    if browser.Url() == 'https://gitee.com':
+        break
+    else:
+        if wait > 5:
+            raise Exception("Failed to login.")
+    wait += 1
+    sleep(3)
 
+print("Working")
 for n in ['bukkit', 'craftbukkit', 'spigot', 'builddata']:
+    print("Updating", n)
     browser.Open(f"https://gitee.com/SNWCreations/{n}")
     browser.WaitByElement('//*[@id="btn-sync-from-github"]')
     sleep(3)
@@ -55,4 +66,4 @@ for n in ['bukkit', 'craftbukkit', 'spigot', 'builddata']:
     sleep(5)
     browser.ElementTouch(mkc, '/html/body/div[4]/div[3]/div[3]/div[3]')
     mkc.LeftClick()
-    sleep(10)
+    sleep(5)
