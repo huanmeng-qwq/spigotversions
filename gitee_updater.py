@@ -45,6 +45,7 @@ while True:
         break
     if waitTimeIndex > 5:
         raise Exception("Failed to login.")
+    waitTimeIndex += 1
     sleep(1)
 
 for n in ['bukkit', 'craftbukkit', 'spigot', 'builddata']:
