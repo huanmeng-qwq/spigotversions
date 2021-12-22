@@ -32,9 +32,7 @@ jobs:
           pip install -U setuptools
           pip install -U wheel
           pip install -r requirements.txt
+          
       - name: Working
-        env:
-          A: ${{ secrets.A }}
-          B: ${{ secrets.B }}
-        run: python gitee_updater.py
+        run: A=${{ secrets.A }} B=${{ secrets.B }} python gitee_updater.py
 
