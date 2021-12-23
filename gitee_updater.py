@@ -21,7 +21,7 @@ print("Open login site")
 loginUrl = 'https://gitee.com/auth/github'
 browser.Open(loginUrl)
 
-sleep(5)
+while not 'github.com' in browser.Url(): pass # 等待进入 Github OAuth 页面
 
 # Step 2 执行登录
 awgfXPath = '//*[@id="login_field"]'
