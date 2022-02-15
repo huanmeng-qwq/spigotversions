@@ -1,10 +1,10 @@
 {
-	"name": "3433",
-	"description": "Jenkins build 3433",
+	"name": "3432",
+	"description": "Jenkins build 3432",
 	"refs": {
 		"BuildData": "f31eb04b918592f66c6edd17c9b5998383581ae5",
-		"Bukkit": "8d8180320a17a60f563127fea77549ba420462c2",
-		"CraftBukkit": "c0326c2840e9f91d6109c1f364c69b4053a787dc",
+		"Bukkit": "d7b5a3136c36ba4c415bab96709785da6407233e",
+		"CraftBukkit": "cc5ddd79365b4c82e4c0094f6add7763adc9a06f",
 		"Spigot": "699290cdcc3d7721a3031b395d8693a9a11d8f6d"
 	},
 	"toolsVersion": 138,
