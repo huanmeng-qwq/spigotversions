@@ -1,10 +1,10 @@
 {
-	"name": "3493",
-	"description": "Jenkins build 3493",
+	"name": "3496",
+	"description": "Jenkins build 3496",
 	"refs": {
 		"BuildData": "641cb0c939c7c2a3c4b42f2fd7bca7c8b34254ae",
-		"Bukkit": "d565a710e0d16d31b6b7db8009a227aba68348fa",
-		"CraftBukkit": "9d46b56e26f3e91392572f6dccec7bfdbd5728c6",
+		"Bukkit": "6a039faf7488beba29527a112404cbab84d0cbd3",
+		"CraftBukkit": "a59dc59e88299b03b52335d95f83a880f131e3a4",
 		"Spigot": "b0819150028ec7233960ec622a4b1ba57f102047"
 	},
 	"toolsVersion": 138,
