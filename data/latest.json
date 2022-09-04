@@ -1,10 +1,10 @@
 {
-	"name": "3579",
-	"description": "Jenkins build 3579",
+	"name": "3580",
+	"description": "Jenkins build 3580",
 	"refs": {
 		"BuildData": "d96ad8e1e64b7c35bb632339c23621353be1f028",
-		"Bukkit": "dea11a5f1a32ae00f8ad502deb8e62d0970793d1",
-		"CraftBukkit": "dd0a21830073767202c1d1203e3ad192318ad88d",
+		"Bukkit": "2683d766020628844637e800d4ec12fd19cc674a",
+		"CraftBukkit": "5901d580a4902919b10fc23a07d40eda50497634",
 		"Spigot": "e53686f7e0406156c8fa91a6e7748fbfed19c3a4"
 	},
 	"toolsVersion": 148,
