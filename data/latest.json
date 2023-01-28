@@ -1,10 +1,10 @@
 {
-	"name": "3641",
-	"description": "Jenkins build 3641",
+	"name": "3645",
+	"description": "Jenkins build 3645",
 	"refs": {
 		"BuildData": "177811e1fa90f674897a302820f3ed84e4d65688",
-		"Bukkit": "d1a1b02112a1fe89f7ef9c16a49211d78e9ef955",
-		"CraftBukkit": "ab8ace68577ab6c0eb2f84b19bbf1adf3ad4a01d",
+		"Bukkit": "e417a748562bea1baef49c07567ce7fdcc2b023b",
+		"CraftBukkit": "7cd3244d3d725fbc2f799f3457e61491ebced818",
 		"Spigot": "19641c7577eefd3f47df12167c5e01f449bce47c"
 	},
 	"toolsVersion": 148,
