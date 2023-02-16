@@ -1,10 +1,10 @@
 {
-	"name": "3654",
-	"description": "Jenkins build 3654",
+	"name": "3655",
+	"description": "Jenkins build 3655",
 	"refs": {
 		"BuildData": "177811e1fa90f674897a302820f3ed84e4d65688",
 		"Bukkit": "37262de84b9613e61809f31691e6f9db48dce0a8",
-		"CraftBukkit": "a50301aa51aab7aa25869d921fa0c6a65eeda547",
+		"CraftBukkit": "8ba5e399ecab056b662b39be7012cc268be4da06",
 		"Spigot": "19641c7577eefd3f47df12167c5e01f449bce47c"
 	},
 	"toolsVersion": 148,
