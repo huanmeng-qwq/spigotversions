@@ -1,10 +1,10 @@
 {
-	"name": "3720",
-	"description": "Jenkins build 3720",
+	"name": "3719",
+	"description": "Jenkins build 3719",
 	"refs": {
 		"BuildData": "4d9436f7b66190ad21fe4e3975b73a36b7ad2a7e",
 		"Bukkit": "eb4b416d2b270c01dba22a583204e62c4440dd3d",
-		"CraftBukkit": "19de3550d85d736cdf1ae0838fe7891576985e49",
+		"CraftBukkit": "1eb88374e1d4916ab0d378f735b44c15e3873fba",
 		"Spigot": "d2fdfe39154577ac5ee1dac1672eab79a9577dc2"
 	},
 	"toolsVersion": 148,
