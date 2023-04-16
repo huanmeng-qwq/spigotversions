@@ -1,10 +1,10 @@
 {
-	"name": "3735",
-	"description": "Jenkins build 3735",
+	"name": "3732",
+	"description": "Jenkins build 3732",
 	"refs": {
 		"BuildData": "4d9436f7b66190ad21fe4e3975b73a36b7ad2a7e",
-		"Bukkit": "7d1f5b64cbf387a608cca794b4daa6f305af429c",
-		"CraftBukkit": "b421af7e440d60d74f926da526abb977612e2edd",
+		"Bukkit": "2c7d3da590e5fea94ade871f905f8cb305e9dede",
+		"CraftBukkit": "598ad7b3f0ffe5be80ff306fdad709848fc3f8b6",
 		"Spigot": "e4265cc8b4856f4f8fa2d2931ecdfecd9f768528"
 	},
 	"toolsVersion": 148,
