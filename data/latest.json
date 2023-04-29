@@ -1,10 +1,10 @@
 {
-	"name": "3739",
-	"description": "Jenkins build 3739",
+	"name": "3741",
+	"description": "Jenkins build 3741",
 	"refs": {
 		"BuildData": "4d9436f7b66190ad21fe4e3975b73a36b7ad2a7e",
-		"Bukkit": "cc7111fedab73f38c39acc38f1d98aa56aecfc36",
-		"CraftBukkit": "63cad7f840fdd2365c5780a30110a2f3f12b4453",
+		"Bukkit": "22fccc090e4375aae1849a35de6fc49702a526c6",
+		"CraftBukkit": "ccbc6abca44cb6d17dfca558e16e93ad3ae89803",
 		"Spigot": "d1bd3bd29c75009f5fb56cdf6ca8175af88d9e80"
 	},
 	"toolsVersion": 148,
