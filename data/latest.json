@@ -1,11 +1,11 @@
 {
-	"name": "3744",
-	"description": "Jenkins build 3744",
+	"name": "3748",
+	"description": "Jenkins build 3748",
 	"refs": {
 		"BuildData": "4d9436f7b66190ad21fe4e3975b73a36b7ad2a7e",
-		"Bukkit": "ecfa559ae8821e3e2677fe168b536333f71149aa",
-		"CraftBukkit": "a7cfc778fdb0f92dd0574939d6f81fbfa33742a0",
-		"Spigot": "d1bd3bd29c75009f5fb56cdf6ca8175af88d9e80"
+		"Bukkit": "2fcba9b271a8557073af845ba6c9c1c121565bea",
+		"CraftBukkit": "01b2e1af41a8698d54437d275b2e7d41014d5d81",
+		"Spigot": "7da74dae7f21e374cd5ee71645fb2bfccdf05beb"
 	},
 	"toolsVersion": 148,
 	"javaVersions": [61, 64]
