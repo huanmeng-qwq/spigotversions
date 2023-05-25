@@ -1,11 +1,11 @@
 {
-	"name": "3750",
-	"description": "Jenkins build 3750",
+	"name": "3753",
+	"description": "Jenkins build 3753",
 	"refs": {
 		"BuildData": "4d9436f7b66190ad21fe4e3975b73a36b7ad2a7e",
-		"Bukkit": "2fcba9b271a8557073af845ba6c9c1c121565bea",
-		"CraftBukkit": "86c816189ca72d2aaf3b3f7ab5d391b5ed913114",
-		"Spigot": "7da74dae7f21e374cd5ee71645fb2bfccdf05beb"
+		"Bukkit": "4727d326da2bcd87ae2a6e6d6dd0cc5249c0288f",
+		"CraftBukkit": "b346a5f6dd890c8ecfff2323082a8178c4fffa62",
+		"Spigot": "7d7b241e353e86ee90ad025dab0262b050a6fe4a"
 	},
 	"toolsVersion": 148,
 	"javaVersions": [61, 64]
