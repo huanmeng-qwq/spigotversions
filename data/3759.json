@@ -1,6 +1,6 @@
 {
-	"name": "3760",
-	"description": "Jenkins build 3760",
+	"name": "3759",
+	"description": "Jenkins build 3759",
 	"refs": {
 		"BuildData": "4d9436f7b66190ad21fe4e3975b73a36b7ad2a7e",
 		"Bukkit": "49256865e6fa333d3c6be957378eb44e743db48b",
