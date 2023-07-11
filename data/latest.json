@@ -1,11 +1,11 @@
 {
-	"name": "3763",
-	"description": "Jenkins build 3763",
+	"name": "3826",
+	"description": "Jenkins build 3826",
 	"refs": {
-		"BuildData": "4d9436f7b66190ad21fe4e3975b73a36b7ad2a7e",
-		"Bukkit": "5dbedae1cbbc70791dcfc374c4c8da35db309a44",
-		"CraftBukkit": "5a5e43ee6bab92419f7a7cfdb39af61a74b226ab",
-		"Spigot": "7d7b241e353e86ee90ad025dab0262b050a6fe4a"
+		"BuildData": "faff587dcbe915bc565bf01f2d54c6af86039414",
+		"Bukkit": "dbd1761dba1225cb89abeff4864944b779aaf37b",
+		"CraftBukkit": "202fc5c4ea8bfe26c819bb6ded2425ab7955fef9",
+		"Spigot": "9ebce8afbf14ba4b857ce5befe716fecbd6d8879"
 	},
 	"toolsVersion": 148,
 	"javaVersions": [61, 64]
