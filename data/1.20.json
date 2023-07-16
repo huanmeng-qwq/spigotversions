@@ -1,10 +1,10 @@
 {
-	"name": "3830",
-	"description": "Jenkins build 3830",
+	"name": "3831",
+	"description": "Jenkins build 3831",
 	"refs": {
 		"BuildData": "faff587dcbe915bc565bf01f2d54c6af86039414",
-		"Bukkit": "f6d8d44a0292cc3251c8e20af6738be08b88016c",
-		"CraftBukkit": "36b107660433035f22f67feaee7972f897ead315",
+		"Bukkit": "12eb5c46a8fce44b91e7ba1fc211614b2ea43433",
+		"CraftBukkit": "a94277a18bfad743199689c808456bb82dba4c8b",
 		"Spigot": "0ca4eb6634d789ff31d0a5128134c8c2263540e9"
 	},
 	"toolsVersion": 148,
