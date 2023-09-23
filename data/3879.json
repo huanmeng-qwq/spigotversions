@@ -1,10 +1,10 @@
 {
-	"name": "3882",
-	"description": "Jenkins build 3882",
+	"name": "3879",
+	"description": "Jenkins build 3879",
 	"refs": {
 		"BuildData": "172197ceb99364701937947ea7fc424ecf1bb694",
-		"Bukkit": "dfe1fb4853158bd17f6955527ad3bf85f4d5150d",
-		"CraftBukkit": "452fcb5997ad4212564a8376b68f05e9b18a4b14",
+		"Bukkit": "e03d10e6bfa4256ea7f865800842f4ca38db5600",
+		"CraftBukkit": "f71a799f03aae4277a48b4a1082b478833975682",
 		"Spigot": "17ca32d0b23fa936083ed19c5da14c3b9e422e50"
 	},
 	"toolsVersion": 148,
