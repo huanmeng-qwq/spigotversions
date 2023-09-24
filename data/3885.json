@@ -1,10 +1,10 @@
 {
-	"name": "3886",
-	"description": "Jenkins build 3886",
+	"name": "3885",
+	"description": "Jenkins build 3885",
 	"refs": {
 		"BuildData": "172197ceb99364701937947ea7fc424ecf1bb694",
 		"Bukkit": "fb23cbb3829ef866094f45ffc5391d516e6a3c57",
-		"CraftBukkit": "f0661c3514a7d8e51e2281f045e1c14d0e733230",
+		"CraftBukkit": "452fcb5997ad4212564a8376b68f05e9b18a4b14",
 		"Spigot": "17ca32d0b23fa936083ed19c5da14c3b9e422e50"
 	},
 	"toolsVersion": 148,
