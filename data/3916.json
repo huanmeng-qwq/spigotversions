@@ -1,10 +1,10 @@
 {
-	"name": "3917",
-	"description": "Jenkins build 3917",
+	"name": "3916",
+	"description": "Jenkins build 3916",
 	"refs": {
 		"BuildData": "172197ceb99364701937947ea7fc424ecf1bb694",
 		"Bukkit": "d47dd212864c3a34d8839e59158c58a39d03ea19",
-		"CraftBukkit": "b59004114e334e6d835f5dc8dbfeebe96c2aa676",
+		"CraftBukkit": "2a381856b95784163eaca2213707bb48e1e2003e",
 		"Spigot": "dba3cdc33be9abb98bb8d13b612b33b18a812db6"
 	},
 	"toolsVersion": 148,
