@@ -1,9 +1,9 @@
 {
-	"name": "3936",
-	"description": "Jenkins build 3936",
+	"name": "3934",
+	"description": "Jenkins build 3934",
 	"refs": {
 		"BuildData": "172197ceb99364701937947ea7fc424ecf1bb694",
-		"Bukkit": "27ae46dcd29c7a8e576f3e21f38a542f9b719ada",
+		"Bukkit": "0616ec8b24e1f596b1e92c88676a9ea91e5fbe8a",
 		"CraftBukkit": "5a2d905aff798d628fb510b00ead05348d5732b6",
 		"Spigot": "dba3cdc33be9abb98bb8d13b612b33b18a812db6"
 	},
