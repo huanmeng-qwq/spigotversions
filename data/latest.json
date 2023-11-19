@@ -1,11 +1,11 @@
 {
-	"name": "3943",
-	"description": "Jenkins build 3943",
+	"name": "3945",
+	"description": "Jenkins build 3945",
 	"refs": {
 		"BuildData": "172197ceb99364701937947ea7fc424ecf1bb694",
-		"Bukkit": "96340858187334c2f24f6acdc904561655c6cbab",
-		"CraftBukkit": "8e162d0083aa05bd3b4ec8972093fe7e9e9b53b0",
-		"Spigot": "7de1049b2a99eaca8090596e3b8e2ba8431f27e6"
+		"Bukkit": "276d0a741fdb6c451a28d02ede4e86b930429b4b",
+		"CraftBukkit": "0478e0417b217d443d7ff8a52e3a97a1b7147d15",
+		"Spigot": "b60a8662a0f9b4490855c4d6f336dada949ccc49"
 	},
 	"toolsVersion": 148,
 	"javaVersions": [61, 65]
