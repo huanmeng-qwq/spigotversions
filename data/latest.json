@@ -1,10 +1,10 @@
 {
-	"name": "3945",
-	"description": "Jenkins build 3945",
+	"name": "3946",
+	"description": "Jenkins build 3946",
 	"refs": {
 		"BuildData": "172197ceb99364701937947ea7fc424ecf1bb694",
-		"Bukkit": "276d0a741fdb6c451a28d02ede4e86b930429b4b",
-		"CraftBukkit": "0478e0417b217d443d7ff8a52e3a97a1b7147d15",
+		"Bukkit": "ef888c0741538690fb9adff0b401cfc868cb62ff",
+		"CraftBukkit": "7580463199b892e909a7d9904d4482eebc63d643",
 		"Spigot": "b60a8662a0f9b4490855c4d6f336dada949ccc49"
 	},
 	"toolsVersion": 148,
