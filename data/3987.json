@@ -1,11 +1,11 @@
 {
-	"name": "3988",
-	"description": "Jenkins build 3988",
+	"name": "3987",
+	"description": "Jenkins build 3987",
 	"refs": {
 		"BuildData": "17eb87e5cd509ff55d691b74902ac19c3b62ca0c",
 		"Bukkit": "f23325b62794e6c40683adfa90027e2087345dde",
 		"CraftBukkit": "752aac66979b1fa81a4cd7606205ae08f9052c63",
-		"Spigot": "86b5dd6a29342782ac71f98987d2c08c182bd642"
+		"Spigot": "aa7cde7af59f14b2a3c950519ddf316b921ad1d7"
 	},
 	"toolsVersion": 148,
 	"javaVersions": [61, 65]
